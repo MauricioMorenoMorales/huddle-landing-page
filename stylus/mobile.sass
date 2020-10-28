@@ -7,8 +7,6 @@ html
 	font-size: 62.5%
 	font-family: 'Poppins', sans-serif
 	background-color: $purple
-	background-image: url('../images/bg-mobile.svg')
-	background-repeat: no-repeat
 
 body
 	font-family: 'Open Sans', sans-serif
@@ -21,6 +19,9 @@ img
 
 .page-container
 	min-width: 375px
+	background-image: url('../images/bg-mobile.svg')
+	background-repeat: no-repeat
+	background-size: 100%
 
 header
 	height: 100px
@@ -92,3 +93,18 @@ footer
 			justify-content: center
 			img
 				height: 14px
+
+.fm-footer
+	p
+		text-align: center
+		color: $white
+		a
+			text-decoration: none
+
+@media screen and (min-width: 1023px)
+	.page-container
+		display: flex
+	
+	main
+		display: flex
+		flex-direction: row

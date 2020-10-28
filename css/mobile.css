@@ -7,8 +7,6 @@ html {
   font-size: 62.5%;
   font-family: "Poppins", sans-serif;
   background-color: #674bb1;
-  background-image: url("../images/bg-mobile.svg");
-  background-repeat: no-repeat;
 }
 
 body {
@@ -26,6 +24,9 @@ img {
 
 .page-container {
   min-width: 375px;
+  background-image: url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 header {
@@ -112,4 +113,23 @@ footer ul li {
 }
 footer ul li img {
   height: 14px;
+}
+
+.fm-footer p {
+  text-align: center;
+  color: #faf7fc;
+}
+.fm-footer p a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1023px) {
+  .page-container {
+    display: flex;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+  }
 }

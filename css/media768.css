@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+  header figure {
+    margin-top: 20px;
+  }
+  header figure img {
+    height: 60px;
+  }
+
+  main .main__text h2 {
+    font-size: 3.8rem;
+    line-height: 3.9rem;
+  }
+  main .main__text p {
+    font-size: 2.3rem;
+  }
+  main .main__text button {
+    height: 60px;
+    font-size: 2rem;
+  }
+
+  footer ul {
+    margin-top: -20px;
+  }
+  footer ul li {
+    padding: 15px;
+  }
+  footer ul li img {
+    height: 30px;
+  }
+}

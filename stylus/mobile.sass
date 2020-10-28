@@ -1,48 +1,73 @@
+@import './_var'
 *
-  margin: 0
-  box-sizing: border-box
+	margin: 0
+	box-sizing: border-box
 
 html
-  font-size: 62.5%
-  font-family: 'Poppins', sans-serif
-  background-color: #674bb1
-  background-image: url('../images/bg-mobile.svg')
-  background-repeat: no-repeat
+	font-size: 62.5%
+	font-family: 'Poppins', sans-serif
+	background-color: $purple
+	background-image: url('../images/bg-mobile.svg')
+	background-repeat: no-repeat
 
 body
-  font-family: 'Open Sans', sans-serif
+	font-family: 'Open Sans', sans-serif
 
 figure
-  margin: 0
-  padding: 0
+	margin: 0
+	padding: 0
 img
-  height: 50px
+	height: 50px
 
 .page-container
-  min-width: 375px
+	min-width: 375px
 
 header
-  height: 100px
-  display: flex
-  align-items: stretch
-  figure
-    display: flex
-    align-items: center
-    margin-bottom: 10px
-    margin-left: 20px
-    img
-      height: 25px
+	height: 100px
+	display: flex
+	align-items: stretch
+	figure
+		display: flex
+		align-items: center
+		margin-bottom: 10px
+		margin-left: 20px
+		img
+			height: 30px
 
 main
-  display: flex
-  flex-direction: column
-  .main__image
-    display: flex
-    align-items: center
-    justify-content: center
-    figure
-      margin-top: 10px
-      width: 75%
-      img
-        width: 100%
-        height: auto
+	display: flex
+	flex-direction: column
+	.main__image
+		display: flex
+		align-items: center
+		justify-content: center
+		figure
+			margin-top: 25px
+			width: 80%
+			img
+				width: 100%
+				height: auto
+	.main__text
+		display: flex
+		flex-direction: column
+		justify-content: center
+		margin: 50px 10% 10%
+		color: #faf7fc
+		h2
+			font-size: 1.9rem
+			margin: 0 4%
+			text-align: center
+			line-height: 2.7rem
+			font-weight: 700
+		p
+			margin-top: 15px
+			font-size: 1.6rem
+			text-align: center
+		button
+			background-color: $white
+			color: $purple
+			border: none
+			height: 40px
+			margin: 25px 17%
+			border-radius: 100px
+			box-shadow: 2px 2px 8px 0px black

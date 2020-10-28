@@ -40,7 +40,7 @@ header figure {
   margin-left: 20px;
 }
 header figure img {
-  height: 25px;
+  height: 30px;
 }
 
 main {
@@ -53,10 +53,38 @@ main .main__image {
   justify-content: center;
 }
 main .main__image figure {
-  margin-top: 10px;
-  width: 75%;
+  margin-top: 25px;
+  width: 80%;
 }
 main .main__image figure img {
   width: 100%;
   height: auto;
+}
+main .main__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px 10% 10%;
+  color: #faf7fc;
+}
+main .main__text h2 {
+  font-size: 1.9rem;
+  margin: 0 4%;
+  text-align: center;
+  line-height: 2.7rem;
+  font-weight: 700;
+}
+main .main__text p {
+  margin-top: 15px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+main .main__text button {
+  background-color: #faf7fc;
+  color: #674bb1;
+  border: none;
+  height: 40px;
+  margin: 25px 17%;
+  border-radius: 100px;
+  box-shadow: 2px 2px 8px 0px black;
 }

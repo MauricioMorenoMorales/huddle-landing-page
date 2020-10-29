@@ -90,6 +90,12 @@ main .main__text button {
   border-radius: 100px;
   box-shadow: 2px 2px 8px 0px black;
 }
+main .main__text button:hover {
+  background-color: rgba(250, 247, 252, 0.6);
+}
+main .main__text button:focus {
+  outline: 1px solid #faf7fc;
+}
 
 footer {
   display: flex;
@@ -111,9 +117,26 @@ footer ul li {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
-footer ul li img {
-  height: 14px;
+footer ul li:hover {
+  border: 2px solid rgba(250, 247, 252, 0.3);
+}
+footer ul li > * {
+  cursor: pointer;
+}
+footer ul li button {
+  background-color: #ffffff00;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer ul li button:focus {
+  outline: 2px solid #faf7fc;
+}
+footer ul li button img {
+  height: 18px;
 }
 
 .fm-footer p {

@@ -73,6 +73,10 @@ main
 			margin: 25px 17%
 			border-radius: 100px
 			box-shadow: 2px 2px 8px 0px black
+			&:hover
+				background-color: transparentize($white, .4)
+			&:focus
+				outline: 1px solid $white
 
 footer
 	display: flex
@@ -92,8 +96,21 @@ footer
 			display: flex
 			align-items: center
 			justify-content: center
-			img
-				height: 14px
+			cursor: pointer
+			&:hover
+				border: 2px solid transparentize($white, .7)
+			& > *
+				cursor: pointer
+			button
+				background-color: #ffffff00
+				border: none
+				display: flex
+				align-items: center
+				justify-content: center
+				&:focus
+					outline: 2px solid $white
+				img
+					height: 18px
 
 .fm-footer
 	p
